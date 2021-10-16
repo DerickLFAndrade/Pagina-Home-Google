@@ -1,0 +1,466 @@
+@media screen and (max-width: 974px)  {
+     .navbar {
+    display: flex;
+    justify-content: end;
+    width: 98vw;
+    
+}
+.barraIt {
+    font-size: 1.4vw;
+
+    margin: 1.5vw;
+}
+#icoLog {
+    color: white;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-top: 15px;
+
+}
+a {
+    font-size: 1.4vw;
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+}
+
+.botLog {
+   width: 16vw;
+   height: 4.1vw;
+   font-size: 1.6vw;
+   text-align: center;
+   
+}
+
+    
+   
+    
+
+#botapps:hover{
+    background: rgba(0, 0, 0, 0.04);
+}
+#botapps {
+    background: none;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+#logoGoogle {
+    width: 28vw;
+}
+#logoP {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vw;
+}
+#Cont1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.search:hover {
+   
+     
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+}
+.search {
+    outline: 0;
+    text-indent: 50px;
+    width: 90%;
+    margin-top: 40px;
+    height: 4.5vw;
+    border-radius: 30px;
+    border: solid 0.1px;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(200, 200, 200);
+}
+#search-ico {
+    position: absolute;
+    margin-top: 52px;
+    
+    margin-left: -25vw;
+    width: 1.5vw;
+}
+.icoTec {
+    margin-left: -100px;
+    margin-top: 45px;
+    width: 3vw;
+    height: 3vw;
+}
+.icoMic {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 1.5vw;
+    height: 2vw;
+}
+#contSearch {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#pesquisaG {
+    display: flex;
+    justify-content: center;
+}
+.botpesq {
+    height:40px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 150px;
+    border: none;
+    font-size: 11pt;
+    margin-top: 40px;
+    color: rgb(66, 66, 66);
+    background:#f2f2f2;
+    
+}
+
+
+    footer {
+    
+position: absolute;
+ bottom: 0;
+ background:#f2f2f2;
+ height: 110px;
+ font-size: 1.5vw;
+    color: gray;
+}
+
+
+.footerBr {
+    padding: 15px;
+    border-bottom:0.1px  solid rgb(216, 214, 214);
+    
+}
+.textosFooter {
+    display: flex;
+    justify-content: flex-start;
+}
+.itensFooter {
+    margin: 15px;
+   
+   
+}
+.textosFooter2 {
+    margin-top: -45px;
+    display: flex;
+    justify-content: flex-end;
+}
+.itensFooter2 {
+    margin-left: 500px;
+    margin: 15px;
+   
+}
+
+}
+
+
+
+@media screen and (min-width: 975px) {
+
+       .navbar {
+    display: flex;
+    justify-content: end;
+    width: 98vw;
+    margin-top: -15px;
+}
+.barraIt {
+    
+    font-size: 14px;
+    margin: 15px;
+}
+#icoLog {
+    color: white;
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+}
+
+.botLog {
+   width: 150px;
+   height: 40px;
+   
+   
+}
+
+    
+   
+    
+
+#botapps:hover{
+    background: rgba(0, 0, 0, 0.04);
+}
+#botapps {
+    background: none;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    width: 45px;
+    height: 46px;
+}
+#logoP {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+#Cont1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.search:hover {
+   
+     
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+}
+.search {
+    outline: 0;
+    text-indent: 50px;
+    width: 600px;
+    margin-top: 40px;
+    height: 45px;
+    border-radius: 30px;
+    border: solid 0.1px;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(200, 200, 200);
+}
+#search-ico {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -245px;
+}
+.icoTec {
+    margin-left: -100px;
+    margin-top: 45px;
+}
+.icoMic {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#contSearch {
+    display: flex;
+    justify-content: center;
+}
+#pesquisaG {
+    display: flex;
+    justify-content: center;
+}
+.botpesq {
+    height:40px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 150px;
+    border: none;
+    font-size: 11pt;
+    margin-top: 40px;
+    color: rgb(66, 66, 66);
+    background:#f2f2f2;
+    
+}
+.botpesq:hover {
+    border: 1px solid rgb(206, 206, 206);
+    box-shadow: 1px 1px 1px 1px rgb(211, 210, 210);
+}
+
+footer {
+    
+position: absolute;
+ bottom: 0;
+ background:#f2f2f2;
+ height: 100px;
+ font-size: 10pt;
+    color: gray;
+}
+
+
+.footerBr {
+    padding: 15px;
+    border-bottom:0.1px  solid rgb(216, 214, 214);
+    
+}
+.textosFooter {
+    display: flex;
+    justify-content: flex-start;
+}
+.itensFooter {
+    margin: 15px;
+   
+   
+}
+.textosFooter2 {
+    margin-top: -45px;
+    display: flex;
+    justify-content: flex-end;
+}
+.itensFooter2 {
+    margin-left: 500px;
+    margin: 15px;
+   
+}
+}
+
+
+
+
+
+  
+/*@media screen and (min-width:976px) {
+
+      .navbar {
+    display: flex;
+    justify-content: end;
+    width: 98vw;
+}
+.barraIt {
+    
+    font-size: 14px;
+    margin: 15px;
+}
+#icoLog {
+    color: white;
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+}
+
+.botLog {
+   width: 150px;
+   height: 40px;
+   
+   
+}
+
+    
+   
+    
+
+#botapps:hover{
+    background: rgba(0, 0, 0, 0.04);
+}
+#botapps {
+    background: none;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+#logoP {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vw;
+}
+#Cont1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.search:hover {
+   
+     
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+}
+.search {
+    outline: 0;
+    text-indent: 50px;
+    width: 600px;
+    margin-top: 40px;
+    height: 45px;
+    border-radius: 30px;
+    border: solid 0.1px;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(200, 200, 200);
+}
+#search-ico {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -245px;
+}
+.icoTec {
+    margin-left: -100px;
+    margin-top: 45px;
+}
+.icoMic {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#contSearch {
+    display: flex;
+    justify-content: center;
+}
+#pesquisaG {
+    display: flex;
+    justify-content: center;
+}
+.botpesq {
+    height:40px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 150px;
+    border: none;
+    font-size: 11pt;
+    margin-top: 40px;
+    color: rgb(66, 66, 66);
+    background:#f2f2f2;
+    
+}
+
+    footer {
+    
+ position: absolute;
+ bottom: 0;
+ background:#f2f2f2;
+ height: 110px;
+ font-size: 12pt;
+    color: gray;
+    
+
+}
+
+
+.footerBr {
+    padding: 15px;
+    border-bottom:0.1px  solid rgb(216, 214, 214);
+    
+}
+.textosFooter {
+    display: flex;
+    justify-content: flex-start;
+}
+.itensFooter {
+    margin: 15px;
+   
+   
+}
+.textosFooter2 {
+    margin-top: -50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.itensFooter2 {
+    margin-left: 500px;
+    margin: 15px;
+   
+}
+}
+*/
