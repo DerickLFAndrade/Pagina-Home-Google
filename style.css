@@ -168,6 +168,10 @@ position: absolute;
     width: 98vw;
     margin-top: -15px;
 }
+.barraIt:hover {
+color:black;
+text-decoration: underline;
+}
 .barraIt {
     
     font-size: 14px;
@@ -180,7 +184,7 @@ position: absolute;
     margin-top: 15px;
 
 }
-a, #pesquisar, #sorte{
+ a, #pesquisar, #sorte{
     color:inherit;
     text-decoration: none;
     color: rgb(36, 35, 35);
@@ -266,22 +270,74 @@ a, #pesquisar, #sorte{
     
     
 }
-#contTec {
-    display: flex;
-   justify-content: flex-end;
-   align-items: flex-end;
-    
-    position: absolute;
 
-    margin-top: 235px;
-    width: 900px;
-    
-}
 .icoTec {
     cursor: pointer;
     margin: 10px;
     margin-left: 500px;
     margin-top: 10px;
+}
+.contCaixas {
+    display: none;
+    position: absolute;
+    width: 650px;
+   
+}
+.set {
+    border: none;
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    margin-left: 555px;
+    margin-top: 46px;
+     background: rgb(32, 32, 32);
+    transform: rotate(45deg);
+}
+.insertTex {
+    border: none;
+    position: absolute;
+    font-size: 8pt;
+    text-align: center;
+    padding: 5px;
+    width: 210px;
+    height: 28px;
+    margin-left: 450px;
+    margin-top: 50px;
+    background: rgb(32, 32, 32);
+    font-weight: bold;
+    color: white;
+    
+}
+.contCaixas2 {
+    display: none;
+    position: absolute;
+    width: 650px;
+    
+}
+.set2 {
+    border: none;
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    margin-left: 593px;
+    margin-top: 46px;
+     background: rgb(32, 32, 32);
+    transform: rotate(45deg);
+}
+.PesquisaVoz {
+    border: none;
+    position: absolute;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    width: 130px;
+    height: 28px;
+    margin-left: 530px;
+    margin-top: 50px;
+    background: rgb(32, 32, 32);
+    color: white;
+    
 }
 .icoMic {
     cursor: pointer;
