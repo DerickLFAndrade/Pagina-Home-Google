@@ -180,14 +180,16 @@ position: absolute;
     margin-top: 15px;
 
 }
-a {
+#pesquisar, #sorte{
+    color:inherit;
     text-decoration: none;
     color: rgb(36, 35, 35);
 }
 
 .botLog {
-   width: 150px;
-   height: 40px;
+   width: 120px;
+   font-size: 15px;
+   
    
    
 }
@@ -219,39 +221,90 @@ a {
     align-content: center;
     
 }
-.search:hover {
+
+.search {
+    position: absolute;
+    outline: 0;
+    margin-left: -80px;
+    width: 420px;
+    margin-top: 0px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    
+}
+#search-ico {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -275px;
+}
+.linha {
+    display: none;
+    position: absolute;
+    margin-left: 420px;
+    height: 30px;
+    width: 1px;
+    margin-top: 5px;
+    background: rgb(214, 214, 214);
+    
+}
+.botX {
+ display: none;
+ border: none;
+    position: absolute;
+    font-size: 25px;
+   height: 50px;
+    
+    color: rgb(139, 138, 138);
+    text-align: center;
+    margin: 10px;
+    margin-left: 380px;
+    margin-top: -7px;
+    background: none;
+    
+
+    
+    
+}
+#contTec {
+    display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+    
+    position: absolute;
+
+    margin-top: 235px;
+    width: 900px;
+    
+}
+.icoTec {
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.icoMic {
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+ #contSearch:hover{
    
      
     box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
 }
-.search {
-    outline: 0;
-    text-indent: 50px;
-    width: 600px;
+#contSearch {
+     display: flex;
+    justify-content: center;
     margin-top: 40px;
-    height: 45px;
+    width: 600px;
     border-radius: 30px;
+    height: 45px;
     border: solid 0.1px;
     border-left: none;
     border-right: none;
     border-color: rgb(200, 200, 200);
-}
-#search-ico {
-    position: absolute;
-    margin-top: 55px;
-    margin-left: -245px;
-}
-.icoTec {
-    margin-left: -100px;
-    margin-top: 45px;
-}
-.icoMic {
-    margin-top: 50px;
-    margin-left: 20px;
-}
-#contSearch {
-    display: flex;
-    justify-content: center;
+   
 }
 #pesquisaG {
     display: flex;
