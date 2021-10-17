@@ -14,16 +14,12 @@ var contTec = document.getElementById('contTec')
 search.focus()
 var a = document.getElementById('pesquisar');
 
-search.oninput= function () {
-  
     
-   
-
+search.oninput= function () {
     linha.style.display = 'block'
     botX.style.display = 'block'
     if (search.value == '') {
-      
-        a.href =''
+        
         linha.style.display = 'none'
         botX.style.display = 'none'
     } else{
