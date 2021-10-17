@@ -1,13 +1,24 @@
 
-@media screen and (max-width: 974px) {
+@media screen and (max-width: 767px) {
 
        .navbar {
 
     display: flex;
-    justify-content: center;
+    flex-wrap:nowrap;
     width: 100vw;
     margin-top: -15px;
     
+}
+.cont-nav-text-mob {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cont-nav-text-mob2 {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .barraIt:hover {
@@ -284,7 +295,7 @@ position: absolute;
 }
 
 
-@media screen and (min-width: 975px) {
+@media screen and (min-width: 768px) {
 /*elementos que não serão utilizados no desktop*/
 #todas {
     display: none;
@@ -518,7 +529,7 @@ text-decoration: underline;
 }
 
 footer {
-    
+    flex-wrap: nowrap;
 position: absolute;
  bottom: 0;
  background:#f2f2f2;
