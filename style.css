@@ -2,19 +2,42 @@
 @media screen and (max-width: 974px) {
 
        .navbar {
+
     display: flex;
-    justify-content: end;
-    width: 98vw;
+    justify-content: center;
+    width: 100vw;
     margin-top: -15px;
+    
 }
+
 .barraIt:hover {
 color:black;
 text-decoration: underline;
 }
+#gmail {
+    display: none;
+}
+#todas  {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(60, 163, 204);
+    border-bottom:2px solid rgb(60, 163, 204);
+}
+#imagens {
+    color: gray;
+    font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+#botNav {
+    width: 20px;
+    margin-top: 12px;
+}
 .barraIt {
-    
-    font-size: 14px;
-    margin: 15px;
+   
+    margin: 8px;
 }
 #icoLog {
     color: white;
@@ -30,17 +53,13 @@ text-decoration: underline;
 }
 
 .botLog {
-   width: 120px;
-   font-size: 15px;
-   
-   
-   
+    font-weight: bold;
+   width: 110px;
+   font-size: 12px; 
+   border-radius: 1px;  
 }
 
     
-   
-    
-
 #botapps:hover{
     background: rgba(0, 0, 0, 0.04);
 }
@@ -64,22 +83,20 @@ text-decoration: underline;
     align-content: center;
     
 }
+.logoGoogle {
+    margin-top: 50px;
+    width:  150px;
+}
 
-.search {
-    position: absolute;
-    outline: 0;
-    margin-left: -80px;
-    width: 420px;
-    margin-top: 0px;
-    height: 40px;
-    border-radius: 30px;
-    border: none;
+.searchModal {
+  background: rgb(0, 0, 0);
     
 }
 #search-ico {
     position: absolute;
-    margin-top: 15px;
-    margin-left: -275px;
+    margin-top: 8px;
+    width: 15px;
+    margin-left: -40vw;
 }
 .linha {
     display: none;
@@ -111,10 +128,7 @@ text-decoration: underline;
 }
 
 .icoTec {
-    cursor: pointer;
-    margin: 10px;
-    margin-left: 500px;
-    margin-top: 10px;
+   display: none;
 }
 .contCaixas {
     display: none;
@@ -179,31 +193,34 @@ text-decoration: underline;
     
 }
 .icoMic {
+    display: none;
     cursor: pointer;
     margin-top: 12px;
     margin-left: 10px;
 }
- #contSearch:hover{
-   
-     
-    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+.ico-mic-375px {
+    width: 20px;
+    margin-left: 80vw;
+    margin-top: 2px;
 }
+.search {
+    display: none;
+}
+
 #contSearch {
      display: flex;
     justify-content: center;
-    margin-top: 40px;
-    width: 600px;
+    margin-top: 20px;
+    width: 95vw;
     border-radius: 30px;
-    height: 45px;
-    border: solid 0.1px;
-    border-left: none;
-    border-right: none;
+    height: 35px;
+    border: solid 1px;
     border-color: rgb(200, 200, 200);
+    
    
 }
 #pesquisaG {
-    display: flex;
-    justify-content: center;
+    display: none;   
 }
 .botpesq {
     height:40px;
@@ -227,7 +244,7 @@ footer {
 position: absolute;
  bottom: 0;
  background:#f2f2f2;
- height: 100px;
+ height: 120px;
  font-size: 10pt;
     color: gray;
 }
@@ -240,7 +257,12 @@ position: absolute;
 }
 .textosFooter {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+#ft-c {
+    display: none;
 }
 .itensFooter {
     margin: 15px;
@@ -248,20 +270,32 @@ position: absolute;
    
 }
 .textosFooter2 {
-    margin-top: -45px;
+    margin-top: -70px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 .itensFooter2 {
     margin-left: 500px;
     margin: 15px;
    
 }
+
 }
 
 
 @media screen and (min-width: 975px) {
-
+/*elementos que não serão utilizados no desktop*/
+#todas {
+    display: none;
+}
+.ico-mic375px{
+    display: none;
+}
+#botNav {
+    display: none;
+}
+/*elementos que não serão utilizados no desktop*/
        .navbar {
     display: flex;
     justify-content: end;

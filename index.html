@@ -13,13 +13,20 @@
 </head>
 <body>
   
- 
-    <header>
-        <nav class="navbar" id="contaGm">
-            <a class="barraIt"  data-pid="23" href="https://mail.google.com/mail/?authuser=0&amp;ogbl" target="_top">Gmail</a>
 
+    <header>
+        
+        <nav class="navbar navbar-light bg-light-color" id="contaGm">
+           
+        
+           <span class="barraIt navbar-toggler-icon" id="botNav"></span>
+           
+      
+            
+            <a class="barraIt"  data-pid="23" href="https://mail.google.com/mail/?authuser=0&amp;ogbl" target="_top" id="gmail">Gmail</a>
+            <a href="index.html" class="barraIt" id="todas">TODAS</a>
         <a class="barraIt" data-pid="2" href="https://www.google.com.br/imghp?hl=pt-BR&amp;authuser=0&amp;ogbl"
-            target="_top">Imagens</a>
+            target="_top" id="imagens">Imagens</a>
             <button id="botapps" class="barraIt"><span ><img id="icoLog" src="google-apps-icon-png-28.jpg" alt=""></span></button>
             <a class="botLog btn btn-primary"
                 href="https://accounts.google.com/ServiceLogin?hl=pt-BR&amp;passive=true&amp;continue=https://www.google.com.br/&amp;ec=GAZAmgQ"
@@ -31,7 +38,7 @@
     <div class="container" id="Cont1">
 
         <section class="container" id="logoP">
-            <img id="logoGoogle" src="logo.png" alt="">
+            <img class="logoGoogle" src="logo.png" alt="">
         </section>
 
         <section class="container" id="contSearch">
@@ -49,6 +56,7 @@
             <span class="linha" id="linha"></span>
 
             <input type="button" class="botX" value="x" id="botX">
+            <span class="ico-mic375px"><img class="ico-mic-375px"src="icon-Mic-375px.ico" alt=""></span>
             <img class="icoMic" id="icoMic" width="15px" height="20px" src="Google_mic.svg.png" alt="">
             <span class="contCaixas2" id="contCaixas2">
                 <span class="set2"></span>
@@ -77,7 +85,7 @@
               <span class="itensFooter">Sobre</span>
               <span class="itensFooter">Publicidade</span>
               <span class="itensFooter">Negócios</span>
-              <span class="itensFooter">Como funciona a Pesquisa</span>
+              <span class="itensFooter" id="ft-c">Como funciona a Pesquisa</span>
           </span>
             <span class="textosFooter2">
                 <span class="itensFooter2">Privacidade</span>
