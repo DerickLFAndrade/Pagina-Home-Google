@@ -53,9 +53,23 @@ icoMic.onmouseleave = function () {
 }
 
 var mod = document.querySelector('[data-modal-mobile]')
+var contMod2 = document.querySelector('[data-cont-mod-2]')
 var botNav = document.getElementById('botNav').addEventListener('click', function () {
-    mod.classList.add('mostrar')
+    mod.style.display = 'block'
+
+    contMod2.addEventListener('click', function () {
+        mod.style.display = 'none'
+    })
+  
   })
 
+  var barraPesquisa = document.getElementById('barra-pesquisa')
+  var modalPesquisa = document.querySelector('[data-cont-modal]')
+var contSearch = document.getElementById('contSearch')
+contSearch.addEventListener('click', function(){
+
+    modalPesquisa.style.display = 'block'
+    barraPesquisa.focus()
+})
 
 

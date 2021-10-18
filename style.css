@@ -309,17 +309,21 @@ position: absolute;
    
 }
 
+/*modal*/
+
 .modalb {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
     display: none;
     position: fixed;
     z-index: 2000;
     background: rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
-    width: 767px;
+    width: 300vw;
     height: 100vh;
+    
 }
 
 .modalb.mostrar {
@@ -330,20 +334,34 @@ position: absolute;
     display: flex;
     flex-direction: column;
     background: white;
-    width: 260px;
+    width: 240px;
     height: 100vh;
+
+   
+}
+.cont-mod-2 {
+    position: fixed;
+   display: flex;
+     background: none;
+    width: 35vw;
+    height: 100vh;
+   top: 0;
+   margin-left: 240px;
+   
+    
 }
 .logo-mod {
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 100px;
+    margin-top: 15px;
+    margin-left: 12px;
+    width: 90px;
 }
 #ico-home {
    
-    width: 40px;
+    width: 45px;
     
 }
 .item-home {
+    
     padding: 10px;
 }
 .item-home2 {
@@ -356,16 +374,17 @@ position: absolute;
     
 }
 .text-hist {
-    margin-left: 15px;
+    margin-left: 22px;
 }
 
 .container-home {
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     color: gray;
     background: white;
     border: none;
+    
 }
 
 #textOcultar {
@@ -375,12 +394,49 @@ position: absolute;
    text-align: left;
  
 }
+/*modal pesquisa mobile*/
+.cont-modal-p{
+    
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    background: white;
+    display: none;
+}
+.seta-b-p {
+    width: 23px;
+    margin-top: -40px;
+}
+.mic-ico-mod {
+    width: 23px;
+    margin-top: -50px;
+    margin-left: 316px;
+}
+.barra-pesquisa-mod {
+  outline: 0;
+  text-indent: 40px;
+    width: 90vw;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid rgb(214, 213, 213);
+}
 
 }
 
 
 @media screen and (min-width: 768px) {
 /*elementos que não serão utilizados no desktop*/
+.cont-mod {
+    display: none;
+}
+.cont-mod-2 {
+    display: none;
+}
 .modalb {
     display: none;
 }
