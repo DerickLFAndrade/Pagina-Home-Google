@@ -13,6 +13,7 @@ var boxText2 = document.createElement('div')
 var contCaixas = document.getElementById('contCaixas')
 var contCaixas2 = document.getElementById('contCaixas2')
 search.focus()
+
 var a = document.getElementById('pesquisar');
 
     
@@ -51,6 +52,10 @@ icoMic.onmouseleave = function () {
     contCaixas2.style.display = 'none'
 }
 
+var mod = document.querySelector('[data-modal-mobile]')
+var botNav = document.getElementById('botNav').addEventListener('click', function () {
+    mod.classList.add('mostrar')
+  })
 
 
 

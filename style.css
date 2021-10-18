@@ -3,6 +3,7 @@
     .cont-nav-text-desk {
         display: none;
     }
+    
 /*elementos que não serão usados no mobile */
        .navbar {
 
@@ -16,12 +17,13 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 .cont-nav-text-mob2 {
+    width: 200px;
     
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+   align-items: center;
 }
 
 .barraIt:hover {
@@ -34,7 +36,7 @@ text-decoration: underline;
 #todas  {
     font-size: 10px;
     font-weight: bold;
-    padding: 10px;
+    padding: 20px;
     color: rgb(60, 163, 204);
     border-bottom:2px solid rgb(60, 163, 204);
 }
@@ -68,7 +70,7 @@ text-decoration: underline;
 
 .botLog {
     font-weight: bold;
-   width: 110px;
+   width: 100px;
    font-size: 12px; 
    border-radius: 1px;  
 }
@@ -307,11 +309,81 @@ position: absolute;
    
 }
 
+.modalb {
+    display: flex;
+    justify-content: center;
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 767px;
+    height: 100vh;
+}
+
+.modalb.mostrar {
+    display: block;
+}
+
+.cont-mod {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 260px;
+    height: 100vh;
+}
+.logo-mod {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+}
+#ico-home {
+   
+    width: 40px;
+    
+}
+.item-home {
+    padding: 10px;
+}
+.item-home2 {
+    
+    padding: 10px;
+}
+.hist-ico {
+    margin-left: 10px;
+    width: 22px;
+    
+}
+.text-hist {
+    margin-left: 15px;
+}
+
+.container-home {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    background: white;
+    border: none;
+}
+
+#textOcultar {
+  
+    font-size: 15px;
+   width: 180px;
+   text-align: left;
+ 
+}
+
 }
 
 
 @media screen and (min-width: 768px) {
 /*elementos que não serão utilizados no desktop*/
+.modalb {
+    display: none;
+}
 #todas {
     display: none;
 }
