@@ -444,8 +444,8 @@ position: absolute;
     margin-left: 10px;
     margin-top: -40px;
 }
-.search-ico-mod {
-    width: 15px;
+.mic-mod{
+    width: 23px;
     margin-top: -50px;
     margin-left: 90vw;
 }
@@ -686,8 +686,12 @@ text-decoration: underline;
      
     box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
 }
+.container {
+    display: flex;
+    justify-content: center;
+}
 #contSearch {
-     display: flex;
+    display: flex;
     justify-content: center;
     margin-top: 40px;
     width: 600px;

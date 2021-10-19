@@ -1,4 +1,4 @@
-var search = document.getElementById('search')
+//var search = document.getElementById('search')
 var linha = document.getElementById('linha')
 var botX = document.getElementById('botX')
 var icoTec = document.getElementById('icoTec')
@@ -12,11 +12,40 @@ var boxText = document.createElement('div')
 var boxText2 = document.createElement('div')
 var contCaixas = document.getElementById('contCaixas')
 var contCaixas2 = document.getElementById('contCaixas2')
-search.focus()
+
 
 var a = document.getElementById('pesquisar');
 
+
+const search = document.getElementById('search');
+search.focus()
+document.getElementById('botPesq').addEventListener('click', buscar);
+search.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') buscar();
+});
+search.addEventListener('input', function () {
+    if (search.value) {
+        document.getElementById('linha').style.display = 'block';
+        document.getElementById('botX').style.display = 'block';
+    } else {
+        document.getElementById('linha').style.display = 'none';
+        document.getElementById('botX').style.display = 'none';
+    }
+});
+
+function buscar() {
     
+    const input = String(search.value);
+
+    if (input) {
+        window.location.href = `https://www.google.com.br/search?q=${input}`;
+    }
+}
+
+
+
+  /*  
+
 search.oninput= function () {
     linha.style.display = 'block'
     botX.style.display = 'block'
@@ -40,7 +69,7 @@ botX.onclick = function () {
     botX.style.display = 'none'
 }
 
-
+*/
 icoTec.onmouseover = function () {
   contCaixas.style.display = 'block'
 }
@@ -72,6 +101,8 @@ contMod2.addEventListener('click', function () {
     $('#modalb').fadeOut(00)
   
 })
+
+
   var setaMod = document.getElementById('seta-mod')
   var barraPesquisa = document.getElementById('barra-pesquisa2')
   var modalPesquisa = document.querySelector('[data-cont-modal]')
@@ -88,9 +119,20 @@ contSearch.addEventListener('click', function(){
       modalPesquisa.style.display = 'none'
       barraPesquisa.value = ''
   })
-  barraPesquisa.oninput = function() {
-      linkMod.href = `https://www.google.com.br/search?q=${barraPesquisa.value}`;
+
+    addEventListener('keydown', function(e){
+       if( e.key === 'Enter') buscar2();
+    } )
+
+  function buscar2 () {
+
+    if(barraPesquisa.value) {
+        window.location.href = `https://www.google.com.br/search?q=${barraPesquisa.value}`;
+    }
+     
   }
+      
+  
             
         
     
