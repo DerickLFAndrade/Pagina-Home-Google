@@ -25,6 +25,11 @@ search.addEventListener('keydown', function (e) {
 });
 search.addEventListener('input', function () {
     if (search.value) {
+        botX.addEventListener('click', function(){
+            document.getElementById('linha').style.display = 'none';
+            document.getElementById('botX').style.display = 'none';
+            search.value = ''
+        })
         document.getElementById('linha').style.display = 'block';
         document.getElementById('botX').style.display = 'block';
     } else {
