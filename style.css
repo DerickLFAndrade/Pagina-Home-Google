@@ -463,7 +463,7 @@ position: absolute;
 
 @media screen and (min-width: 768px) {
 /*elementos que não serão utilizados no desktop*/
-.barra-pesquisa-mod {
+.mod-barra-p {
     display: none;
 }
 .cont-mod {
