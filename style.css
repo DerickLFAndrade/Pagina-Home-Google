@@ -323,19 +323,49 @@ position: absolute;
     left: 0;
     width: 300vw;
     height: 100vh;
+   
+    
+}
+@keyframes animodal {
+    from {
+       
+        transform: translate3d(-200px,0, 0);
+    } 
+    to {
+        
+        transform: translate3d(0,0,0);
+    }
+}
+@keyframes animodal2 {
+    from {
+       
+        transform: translate3d(200px,0, 0);
+    } 
+     to {
+        
+        transform: translate3d(0,0,0);
+    }
+ 
+}
+
+.modalb.mostrar-m {
+    animation: animodal 0.7s; 
+}
+   
+.modalb.anima-m {
+    animation: animodal2 0.7s;
     
 }
 
-.modalb.mostrar {
-    display: block;
-}
 
 .cont-mod {
+    
     display: flex;
     flex-direction: column;
     background: white;
     width: 240px;
     height: 100vh;
+   margin-left: -200px;
 
    
 }
@@ -343,10 +373,11 @@ position: absolute;
     position: fixed;
    display: flex;
      background: none;
-    width: 35vw;
+    width: 300vw;
     height: 100vh;
    top: 0;
-   margin-left: 240px;
+   margin-left:40px;
+   
    
     
 }
@@ -410,17 +441,18 @@ position: absolute;
 }
 .seta-b-p {
     width: 23px;
+    margin-left: 10px;
     margin-top: -40px;
 }
-.mic-ico-mod {
-    width: 23px;
+.search-ico-mod {
+    width: 15px;
     margin-top: -50px;
-    margin-left: 316px;
+    margin-left: 90vw;
 }
 .barra-pesquisa-mod {
   outline: 0;
   text-indent: 40px;
-    width: 90vw;
+    width: 100vw;
     height: 50px;
     border: none;
     border-bottom: 1px solid rgb(214, 213, 213);

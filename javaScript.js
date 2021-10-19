@@ -53,23 +53,46 @@ icoMic.onmouseleave = function () {
 }
 
 var mod = document.querySelector('[data-modal-mobile]')
+var contMod = document.querySelector('[data-cont-mod]')
 var contMod2 = document.querySelector('[data-cont-mod-2]')
 var botNav = document.getElementById('botNav').addEventListener('click', function () {
-    mod.style.display = 'block'
+   
+    $('#modalb').fadeIn(00)
 
-    contMod2.addEventListener('click', function () {
-        mod.style.display = 'none'
-    })
+    $('#modalb').animate({ left: '200px' })
+   
   
   })
 
-  var barraPesquisa = document.getElementById('barra-pesquisa')
+contMod2.addEventListener('click', function () {
+    $('#modalb').animate({ left: '-200px' })
+    $('#modalb').fadeOut(00)
+  
+})
+  var setaMod = document.getElementById('seta-mod')
+  var barraPesquisa = document.getElementById('barra-pesquisa2')
   var modalPesquisa = document.querySelector('[data-cont-modal]')
+  var linkMod = document.getElementById('link-mod')
 var contSearch = document.getElementById('contSearch')
+var env = document.getElementById('env')
 contSearch.addEventListener('click', function(){
 
     modalPesquisa.style.display = 'block'
     barraPesquisa.focus()
+    barraPesquisa
+
+  setaMod.addEventListener('click', function(){
+      modalPesquisa.style.display = 'none'
+      barraPesquisa.value = ''
+  })
+  barraPesquisa.oninput = function() {
+      linkMod.href = `https://www.google.com.br/search?q=${barraPesquisa.value}`;
+  }
+            
+        
+    
+       
 })
+
 
 
