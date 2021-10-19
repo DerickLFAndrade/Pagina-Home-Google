@@ -20,15 +20,18 @@ var a = document.getElementById('pesquisar');
 search.oninput= function () {
     linha.style.display = 'block'
     botX.style.display = 'block'
-    if (search.value == '') {
+    if (search.value == false) {
         
+        a.href = `index.html`
         linha.style.display = 'none'
         botX.style.display = 'none'
     } else{
         
         a.href = `https://www.google.com.br/search?q=${search.value}`;
     }
+    console.log(search.value)
 }
+
 botX.onclick = function () {
     search.value = ''
     a.style.textDecoration = 'none'
